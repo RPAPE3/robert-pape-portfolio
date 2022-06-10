@@ -1,4 +1,4 @@
-nav {
+header {
     background-color: antiquewhite;
     margin-bottom: 15px;
 }
@@ -8,13 +8,38 @@ section {
 footer {
     background-color: antiquewhite;
 }
-
-.navlinks li {
-    display: inline;
+header h1 {
+    display: inline-block;
+    margin-right: 50px;
+    float: left;
 }
 
-.linklist {
+header nav {
+    float: right;
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+/* .navlinks li {
+    display: inline;
+} */
+
+/* .linklist {
     display: flex;
     justify-content: flex-end;
+} */
+
+.robby_photo {
+    height: 125px;
+    width: 90px;
+    object-fit: cover;
+    border: 3px solid dodgerblue;
+    border-radius: 48%
 }
 
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+}
