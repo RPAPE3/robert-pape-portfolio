@@ -1,25 +1,44 @@
 header {
     background-color: antiquewhite;
     margin-bottom: 15px;
+    padding-top: 50px;
+    background-image: url(../Images/Header\ Image.jpg);
+    display: flex;
+    justify-content: space-between;
+}
+
+header h1 {
+    display: inline-block;
+    margin-right: 50px;
+    float: left;
+    color: azure;
+}
+
+header nav {
+    /* float: right; */
+    justify-self: flex-end;
+    align-self: flex-end;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+    font-size: 25px;
+}
+
+header nav ul li a {
+    color: azure;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 section {
     background-color: antiquewhite;
 }
 footer {
     background-color: antiquewhite;
-}
-header h1 {
-    display: inline-block;
-    margin-right: 50px;
-    float: left;
-}
-
-header nav {
-    float: right;
-}
-
-header nav ul li {
-    display: inline-block;
 }
 
 /* .navlinks li {
