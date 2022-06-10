@@ -1,0 +1,20 @@
+nav {
+    background-color: antiquewhite;
+    margin-bottom: 15px;
+}
+section {
+    background-color: antiquewhite;
+}
+footer {
+    background-color: antiquewhite;
+}
+
+.navlinks li {
+    display: inline;
+}
+
+.linklist {
+    display: flex;
+    justify-content: flex-end;
+}
+
