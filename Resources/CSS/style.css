@@ -12,6 +12,8 @@ header h1 {
     padding: 0px 20px 0px 50px;
     float: left;
     color: azure;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
 }
 
 header nav {
@@ -33,6 +35,7 @@ header nav ul li {
 header nav ul li a {
     color: azure;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
 }
 section {
     background-color: antiquewhite;
@@ -49,7 +52,14 @@ footer {
     border-radius: 48%
 }
 
-h1 {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 50px;
+.AboutMe:hover,
+.work:hover,
+.contact:hover {
+    text-decoration: underline;
+}
+
+.AboutMe:active,
+.work:active,
+.contact:active {
+    text-decoration: underline black;
 }
