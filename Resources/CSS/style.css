@@ -9,19 +9,19 @@ header {
 
 header h1 {
     display: inline-block;
-    margin-right: 50px;
+    padding: 0px 20px 0px 50px;
     float: left;
     color: azure;
 }
 
 header nav {
-    /* float: right; */
     justify-self: flex-end;
     align-self: flex-end;
 }
 
 header nav ul {
     list-style-type: none;
+    padding-right: 50px;
 }
 
 header nav ul li {
@@ -40,15 +40,6 @@ section {
 footer {
     background-color: antiquewhite;
 }
-
-/* .navlinks li {
-    display: inline;
-} */
-
-/* .linklist {
-    display: flex;
-    justify-content: flex-end;
-} */
 
 .robby_photo {
     height: 125px;
