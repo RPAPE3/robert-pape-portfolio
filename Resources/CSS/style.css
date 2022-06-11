@@ -122,6 +122,7 @@ footer {
 .small-icon-projects {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .my-work-box {
@@ -155,7 +156,5 @@ footer {
 .project-3,
 .project-4,
 .project-5 {
-    width: 45%;
-    align-self: center;
+    width: 48%;
 }
-
