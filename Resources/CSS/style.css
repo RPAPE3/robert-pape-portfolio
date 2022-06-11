@@ -77,18 +77,18 @@ footer {
     color: azure;
   }
 
-  .dev-image {
+.dev-image {
     width: 100%;
     height: 575px;
   }
 
-  .container-about-me {
+.container-about-me {
       display: flex;
       margin-top: 25px;
       margin-bottom: 25px;
   }
 
-  .bio {
+.bio {
       width: 10%;
       height: 155px;
       display: inline-block;
@@ -99,9 +99,63 @@ footer {
       text-align: center;
   }
 
-  .bio-text {
+.bio-text {
       width: 80%;
       margin-right: 20px;
       margin-left: 75px;
       background-color: beige;
   }
+
+.project-container {
+      display: flex;
+
+  }
+
+.projects {
+    width: 80%;
+    margin-left: 20px;
+    display: flex;
+    flex-flow: column wrap;
+    background-color: beige;
+  }
+
+.small-icon-projects {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.my-work-box {
+      width: 10%;
+      margin-right: 20px;
+      margin-left: 75px;
+      background-color: beige;
+      height: 155px;
+      padding: 55px;
+      font-size: 29px;
+      text-align: center;
+      align-self: center;
+  }
+  
+.project-1,
+.project-2,
+.project-3,
+.project-4,
+.project-5 {
+      background-color: brown;
+      margin-top: 5px;
+  }
+
+.project-1 {
+    width: 75%;
+    height: 350px;
+    align-self: center;
+}
+
+.project-2,
+.project-3,
+.project-4,
+.project-5 {
+    width: 45%;
+    align-self: center;
+}
+
