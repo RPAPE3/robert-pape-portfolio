@@ -177,3 +177,23 @@ footer {
     margin-top: 25px;
     color: white;
 }
+
+.project-2 {
+    background-image: url(../Images/Project\ 2\ Image.jpg);
+    background-size: cover;
+}
+
+.project-3 {
+    background-image: url(../Images/Project\ 3\ Image.jpg);
+    background-size: cover;
+}
+
+.project-4 {
+    background-image: url(../Images/Project\ 4\ Image.jpg);
+    background-size: cover;
+}
+
+.project-5 {
+    background-image: url(../Images/Project\ 5\ Image.jpg);
+    background-size: cover;
+}
