@@ -137,19 +137,25 @@ footer {
       align-self: center;
   }
   
-.project-1,
-.project-2,
-.project-3,
-.project-4,
-.project-5 {
-      background-color: brown;
-      margin-top: 5px;
-  }
 
 .project-1 {
     width: 75%;
     height: 350px;
     align-self: center;
+    background-image: url(../Images/Project\ 1\ Image.jpg);
+    background-size: cover;
+    margin-top: 5px;
+    position: relative;
+}
+
+.project-1-text {
+    background-color: slategray;
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    padding-top: 9px;
+    margin-top: 25px;
+    color: white;
 }
 
 .project-2,
@@ -157,4 +163,17 @@ footer {
 .project-4,
 .project-5 {
     width: 48%;
+    background-color: brown;
+    margin-top: 5px;
+    height: 200px;
+}
+
+.small-icon-projects-text {
+    background-color: slategray;
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    padding-top: 9px;
+    margin-top: 25px;
+    color: white;
 }
