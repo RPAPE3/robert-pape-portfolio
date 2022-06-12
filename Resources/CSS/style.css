@@ -1,5 +1,9 @@
+body {
+    background-image: url(../Images/background\ image.jpg);
+    background-size: cover;
+}
+
 header {
-    background-color: antiquewhite;
     margin-bottom: 15px;
     background-color: slategray;
     display: flex;
@@ -35,12 +39,6 @@ header nav ul li a {
     color: azure;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-decoration: none;
-}
-section {
-    background-color: antiquewhite;
-}
-footer {
-    background-color: antiquewhite;
 }
 
 .robby_photo {
@@ -93,10 +91,11 @@ footer {
       height: 155px;
       display: inline-block;
       margin-left: 20px;
-      background-color: beige;
+      background-color: slategray;
       padding: 55px;
       font-size: 29px;
       text-align: center;
+      color: aliceblue;
   }
 
 .bio-text {
@@ -116,7 +115,6 @@ footer {
     margin-left: 20px;
     display: flex;
     flex-flow: column wrap;
-    background-color: beige;
   }
 
 .small-icon-projects {
@@ -129,12 +127,13 @@ footer {
       width: 10%;
       margin-right: 20px;
       margin-left: 75px;
-      background-color: beige;
+      background-color: slategray;
       height: 155px;
       padding: 55px;
       font-size: 29px;
       text-align: center;
       align-self: center;
+      color: aliceblue;
   }
   
 
@@ -196,4 +195,50 @@ footer {
 .project-5 {
     background-image: url(../Images/Project\ 5\ Image.jpg);
     background-size: cover;
+}
+
+.container-contact-me {
+    display: flex;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.contact-section {
+    width: 10%;
+    height: 155px;
+    display: inline-block;
+    margin-left: 20px;
+    background-color: slategray;
+    padding: 55px;
+    font-size: 29px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.container-contact-info {
+    width: 80%;
+    margin-right: 20px;
+    margin-left: 75px;
+    display: flex;
+    color: aliceblue;
+}
+
+.contact-info {
+    align-self: flex-end;
+    display: inline-flex;
+    list-style: none;
+}
+
+.contact-info li strong{
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.contact-info li {
+    margin-left: 85px;
+    font-size: 22px;
+}
+
+.contact-info li a {
+    text-decoration: none;
 }
