@@ -254,3 +254,24 @@ header nav ul li a {
 .contact-info li a {
     text-decoration: none;
 }
+
+@media screen and (max-width: 992px) {
+    header {
+      background: #772014;
+    }
+  }
+  
+  /* Large smartphones - navbar changes color */
+  @media screen and (max-width: 768px) {
+    nav {
+      background-color: #bb8588;
+    }
+  }
+  
+  /* Small smartphones - image placeholders change color */
+  @media screen and (max-width: 576px) {
+    .sample-img {
+      background-color: #8ac4ff;
+    }
+  }
+  
